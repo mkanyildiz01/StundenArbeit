@@ -1,11 +1,11 @@
+package DecoratorPattern;
+
 public abstract class Beverage{
 
-    String description ="";
+    protected String description ="";
 
     public String getDescription() {
         return description;
     }
-    public double cost(){
-        return 32.0;
-    }
+    public abstract double cost();
 }
